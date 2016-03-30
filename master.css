@@ -1,0 +1,204 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@CHARSET "UTF-8";
+
+* {
+	font-family: Open Sans;
+	font-size: 100%;
+}
+
+body {
+	background-color: #F0F3F6;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: #3C454C;
+	font-size: 150%;
+}
+
+h2 {
+	color: #3C454C;
+	font-size: 130%;
+}
+
+h3 {
+	color: #3C454C;
+	font-size: 110%;
+}
+
+h4 {
+	color: #3C454C;
+	font-size: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.button, input[type=submit] {
+    background-color: #27ae60;
+    border:2px;
+    color: white;
+    cursor: pointer; cursor: hand;
+    margin:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+}
+
+.button, input[type=submit]:hover {
+	background-color: #52BE80;
+}
+
+.headerlist {
+	position:fixed;
+	background-color: white;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    font-size:18px;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,0.15);
+    height: 46px;
+    width: 100%;
+    padding-bottom: 9px;
+    top: 0;
+    left: 0;
+}
+
+.headerlist li {
+    float: left;
+}
+
+.headerlist a {
+	color: #5C6972;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+}
+
+.headerlist a:hover {
+   	border-bottom: 4px solid #3498DB;
+}
+
+body#home a#homenav,
+body#quizzes a#quiznav,
+body#users a#usernav,
+body#mailbox a#mailnav,
+body#profile a#profilenav,
+body#admin a#adminnav {
+	border-bottom: 4px solid #3498DB;
+}
+
+.spacer {
+	height: 46px;
+	width: 100%;
+}
+
+.card {
+	background-color: white;
+	border:0.5px solid #CCC;
+	border-bottom:2px solid #DDD;
+	border-radius:3px;
+	padding:10px;
+	margin:15px;
+	overflow: hidden;
+}
+
+.card h2, h3, h4 {
+	margin:0px;
+	padding:10px;
+	padding-bottom:0px;
+}
+
+.card p {
+	margin:0px;
+	padding:10px;
+}
+
+.card li {
+	list-style-type: none;
+	margin:0px;
+	padding:10px;
+	word-wrap: break-word;
+}
+
+.card.login {
+	padding:30px;
+}
+
+.messagelist {
+	width: 95%;
+}
+
+.messagelist a {
+	text-decoration: none;
+}
+
+.messagelist p {
+	color: black;
+}
+
+.messagetext {
+	font-style:italic;
+	text-align:center;
+}
+
+.messagetext a {
+	text-decoration: none;
+}
+
+.announcement {
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    background-color: #3498DB;
+    color: white;
+    margin-top:10px;
+}
+
+.sidebar {
+	float:left;
+	width:25%;
+}
+
+.sidebar li {
+	list-style-type: none;
+	margin-left:-30px;
+	padding:5px;
+}
+
+.centerPseudo {
+    display:inline-block;
+    text-align:center;
+}
+
+.centerFlex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.graphcard {
+	background-color: white;
+	border:0.5px solid #CCC;
+	border-bottom:2px solid #DDD;
+	border-radius:3px;
+	height:400px;
+	width: 90%;
+	margin:15px;
+	padding:10px;
+	text-align:center;
+}
+
+
+
+
